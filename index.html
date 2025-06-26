@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Schedule App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Schedule App</h1>
+            <div class="header-controls">
+                <div class="view-toggle">
+                    <button id="monthView" class="active">Month</button>
+                    <button id="weekView">Week</button>
+                    <button id="dayView">Day</button>
+                </div>
+                <button id="darkModeToggle" class="dark-mode-btn">🌙</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="calendar-section">
+                <div class="calendar-header">
+                    <button id="prevBtn">&lt;</button>
+                    <h2 id="currentMonth"></h2>
+                    <button id="nextBtn">&gt;</button>
+                </div>
+                <div id="calendar" class="calendar-grid"></div>
+            </div>
+
+            <div class="tasks-section">
+                <div class="task-header">
+                    <h3>Tasks for <span id="selectedDate">Today</span></h3>
+                    <div class="header-buttons">
+                        <button id="addTaskBtn">+ Add Task</button>
+                        <div class="hot-reload-indicator">
+                            <span class="pulse-dot"></span>
+                            <span class="hot-reload-text">Hot Reload Active</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="claude-chat">
+                    <div class="chat-header">
+                        <h4>🤖 Chat with Claude</h4>
+                        <button id="toggleChat" class="toggle-btn">−</button>
+                    </div>
+                    <div class="chat-container" id="chatContainer">
+                        <div class="chat-messages" id="chatMessages">
+                            <div class="claude-message">
+                                <strong>Claude:</strong> Hi! I'm your AI schedule assistant with full access to your calendar. I can handle simple requests like "add lunch tomorrow" or complex ones like "create a workout plan for next week". 
+                                <br><br>
+                                <strong>Try asking me to:</strong><br>
+                                • Add, move, or delete tasks<br>
+                                • Create workout plans or routines<br>
+                                • Schedule recurring meetings<br>
+                                • Plan your entire week<br>
+                                • Clear time blocks for specific activities
+                            </div>
+                        </div>
+                        <div class="chat-input-container">
+                            <input type="text" id="chatInput" placeholder="Ask Claude to modify your schedule...">
+                            <button id="sendBtn">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="tasksList" class="tasks-list"></div>
+            </div>
+        </main>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav" id="mobileNav">
+            <button class="mobile-nav-btn" id="mobileTasksBtn">
+                <span>📝</span>
+                <span>Tasks</span>
+            </button>
+            <button class="mobile-nav-btn" id="mobileClaudeBtn">
+                <span>🤖</span>
+                <span>Claude</span>
+            </button>
+        </div>
+
+        <!-- Mobile Tasks Panel -->
+        <div class="mobile-tasks-panel" id="mobileTasksPanel">
+            <div class="mobile-panel-header">
+                <h3>Tasks for <span id="mobileSelectedDate">Today</span></h3>
+                <button class="mobile-panel-close" id="closeMobileTasksPanel">×</button>
+            </div>
+            <div class="mobile-panel-content">
+                <button id="mobileAddTaskBtn" class="mobile-add-task-btn">+ Add Task</button>
+                <div id="mobileTasksList" class="mobile-tasks-list"></div>
+            </div>
+        </div>
+
+        <!-- Mobile Claude Chat Overlay -->
+        <div class="mobile-claude-overlay" id="mobileClaudeOverlay">
+            <div class="mobile-claude-panel">
+                <div class="mobile-claude-header">
+                    <h4>🤖 Chat with Claude</h4>
+                    <button class="mobile-panel-close" id="closeMobileClaudePanel">×</button>
+                </div>
+                <div class="mobile-claude-content">
+                    <div class="mobile-chat-messages" id="mobileChatMessages">
+                        <div class="claude-message">
+                            <strong>Claude:</strong> Hi! I'm your AI schedule assistant. Try asking me to add, move, or delete tasks!
+                        </div>
+                    </div>
+                    <div class="mobile-chat-input-container">
+                        <input type="text" id="mobileChatInput" placeholder="Ask Claude to modify your schedule...">
+                        <button id="mobileSendBtn">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="taskModal" class="modal">
+            <div class="modal-content">
+                <h3>Add/Edit Task</h3>
+                <form id="taskForm">
+                    <input type="text" id="taskTitle" placeholder="Task title" required>
+                    <textarea id="taskDescription" placeholder="Description (optional)"></textarea>
+                    <select id="taskType" required>
+                        <option value="">Select task type</option>
+                        <option value="work">Work</option>
+                        <option value="exercise">Exercise</option>
+                        <option value="wakeup">Wake Up</option>
+                        <option value="bedtime">Bedtime</option>
+                        <option value="meal">Meal</option>
+                        <option value="meeting">Meeting</option>
+                        <option value="personal">Personal</option>
+                        <option value="health">Health</option>
+                        <option value="social">Social</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div class="time-inputs">
+                        <div>
+                            <label for="taskStartTime">Start Time:</label>
+                            <input type="time" id="taskStartTime">
+                        </div>
+                        <div>
+                            <label for="taskEndTime">End Time:</label>
+                            <input type="time" id="taskEndTime">
+                        </div>
+                    </div>
+                    <div class="recurrence-section">
+                        <label for="taskRecurrence">Repeat:</label>
+                        <select id="taskRecurrence">
+                            <option value="none">Does not repeat</option>
+                            <option value="daily">Daily</option>
+                            <option value="weekly">Weekly</option>
+                            <option value="monthly">Monthly</option>
+                            <option value="yearly">Yearly</option>
+                            <option value="custom">Custom...</option>
+                        </select>
+                        <div id="customRecurrence" class="custom-recurrence" style="display: none;">
+                            <label>Repeat every:</label>
+                            <div class="custom-freq">
+                                <input type="number" id="recurrenceInterval" min="1" value="1">
+                                <select id="recurrenceFrequency">
+                                    <option value="days">Days</option>
+                                    <option value="weeks">Weeks</option>
+                                    <option value="months">Months</option>
+                                    <option value="years">Years</option>
+                                </select>
+                            </div>
+                            <label for="recurrenceEnd">End:</label>
+                            <select id="recurrenceEnd">
+                                <option value="never">Never</option>
+                                <option value="after">After occurrences</option>
+                                <option value="on">On date</option>
+                            </select>
+                            <input type="number" id="recurrenceCount" min="1" value="10" style="display: none;">
+                            <input type="date" id="recurrenceEndDate" style="display: none;">
+                        </div>
+                    </div>
+                    <div class="form-buttons">
+                        <button type="submit">Save</button>
+                        <button type="button" id="cancelBtn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

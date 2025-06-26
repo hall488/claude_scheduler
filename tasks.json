@@ -1,0 +1,205 @@
+[
+  {
+    "id": "claude_1719360000",
+    "title": "poo",
+    "type": "other",
+    "date": "2025-06-20",
+    "completed": false,
+    "startTime": "12:00",
+    "endTime": "12:30"
+  },
+  {
+    "id": "claude_1735218000",
+    "title": "poo fight",
+    "type": "other",
+    "date": "2025-06-30",
+    "completed": false,
+    "startTime": "10:00",
+    "endTime": "11:00"
+  },
+  {
+    "id": "claude_1735390800",
+    "title": "poo fight",
+    "type": "other",
+    "date": "2025-07-14",
+    "completed": false,
+    "startTime": "10:00",
+    "endTime": "11:00"
+  },
+  {
+    "id": "claude_1735477200",
+    "title": "poo fight",
+    "type": "other",
+    "date": "2025-07-21",
+    "completed": false,
+    "startTime": "10:00",
+    "endTime": "11:00"
+  },
+  {
+    "id": "claude_test_1",
+    "title": "Morning Coffee \u2615",
+    "description": "Start the day right with a good cup of coffee",
+    "type": "personal",
+    "startTime": "06:30",
+    "endTime": "07:00",
+    "date": "2025-06-26",
+    "completed": false
+  },
+  {
+    "id": "claude_test_4",
+    "title": "Be nice to katelyn",
+    "description": "Remember to be extra kind today",
+    "type": "personal",
+    "date": "2025-06-23",
+    "completed": false
+  },
+  {
+    "id": "claude_fishing_1",
+    "title": "\ud83c\udfa3 Go Fishing",
+    "description": "Relaxing day out on the water - don't forget the tackle box!",
+    "type": "personal",
+    "startTime": "08:00",
+    "endTime": "16:00",
+    "date": "2025-06-28",
+    "completed": false
+  },
+  {
+    "id": "claude_1750958722",
+    "title": "Coffee \u2615",
+    "type": "personal",
+    "date": "2025-06-24",
+    "completed": false,
+    "startTime": "07:30",
+    "endTime": "08:00"
+  },
+  {
+    "id": "claude_1750961400",
+    "title": "Work - Fix & Finish Prehoc",
+    "description": "**Fix and finish prehoc project**\n\u2022 Complete remaining prehoc tasks\n\u2022 Debug and resolve issues\n\u2022 Finalize implementation",
+    "type": "work",
+    "date": "2025-06-30",
+    "completed": false,
+    "startTime": "09:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "claude_1751047800",
+    "title": "Work",
+    "description": "**Regular work schedule**\n\u2022 Monday through Friday\n\u2022 Office hours",
+    "type": "work",
+    "date": "2025-07-01",
+    "completed": false,
+    "startTime": "09:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "claude_1751134200",
+    "title": "Work",
+    "description": "**Regular work schedule**\n\u2022 Monday through Friday\n\u2022 Office hours",
+    "type": "work",
+    "date": "2025-06-20",
+    "completed": false,
+    "startTime": "09:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "claude_1751220600",
+    "title": "Work",
+    "description": "**Regular work schedule**\n\u2022 Monday through Friday\n\u2022 Office hours",
+    "type": "work",
+    "date": "2025-07-03",
+    "completed": false,
+    "startTime": "09:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "claude_1751307000",
+    "title": "Work",
+    "description": "**Regular work schedule**\n\u2022 Monday through Friday\n\u2022 Office hours",
+    "type": "work",
+    "date": "2025-06-21",
+    "completed": false,
+    "startTime": "09:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": "claude_1719427200",
+    "title": "Team Standup Meeting",
+    "description": "**Daily sync with development team**\n\u2022 Review yesterday's progress\n\u2022 Discuss today's priorities\n\u2022 Address any blockers",
+    "type": "meeting",
+    "date": "2025-06-25",
+    "completed": false,
+    "startTime": "09:00",
+    "endTime": "09:30"
+  },
+  {
+    "id": "claude_1719430800",
+    "title": "Gym Workout",
+    "description": "**Upper body strength training**\n\u2022 Chest and back exercises\n\u2022 45 minutes cardio\n\u2022 Don't forget water bottle",
+    "type": "exercise",
+    "date": "2025-06-27",
+    "completed": false,
+    "startTime": "18:00",
+    "endTime": "19:30"
+  },
+  {
+    "id": "claude_1719434400",
+    "title": "Grocery Shopping",
+    "description": "**Weekly grocery run**\n\u2022 Fresh vegetables and fruits\n\u2022 Protein for meal prep\n\u2022 Household essentials",
+    "type": "personal",
+    "date": "2025-06-27",
+    "completed": false,
+    "startTime": "10:00",
+    "endTime": "11:00"
+  },
+  {
+    "id": "claude_1719438000",
+    "title": "Lunch with Sarah",
+    "description": "**Catch up with college friend**\n\u2022 New restaurant downtown\n\u2022 Discuss weekend plans\n\u2022 Split the bill",
+    "type": "social",
+    "date": "2025-06-27",
+    "completed": false,
+    "startTime": "12:30",
+    "endTime": "14:00"
+  },
+  {
+    "id": "claude_1719441600",
+    "title": "Code Review Session",
+    "description": "**Review pull requests**\n\u2022 Focus on security improvements\n\u2022 Check test coverage\n\u2022 Provide constructive feedback",
+    "type": "work",
+    "date": "2025-06-27",
+    "completed": false,
+    "startTime": "14:30",
+    "endTime": "16:00"
+  },
+  {
+    "id": "claude_1719445200",
+    "title": "Doctor Appointment",
+    "description": "**Annual checkup**\n\u2022 Blood pressure check\n\u2022 Discuss fitness goals\n\u2022 Bring insurance card",
+    "type": "health",
+    "date": "2025-06-27",
+    "completed": false,
+    "startTime": "16:30",
+    "endTime": "17:30"
+  },
+  {
+    "id": "claude_1719448800",
+    "title": "Dinner Prep",
+    "description": "**Healthy meal preparation**\n\u2022 Grilled chicken and vegetables\n\u2022 Quinoa side dish\n\u2022 Prep for tomorrow too",
+    "type": "meal",
+    "date": "2025-06-27",
+    "completed": false,
+    "startTime": "21:00",
+    "endTime": "22:00"
+  },
+  {
+    "id": "claude_1719452400",
+    "title": "Read Chapter 3",
+    "description": "**Continue reading 'The Pragmatic Programmer'**\n\u2022 Focus on debugging techniques\n\u2022 Take notes on key concepts\n\u2022 30 minutes before bed",
+    "type": "personal",
+    "date": "2025-06-27",
+    "completed": false,
+    "startTime": "20:00",
+    "endTime": "20:30"
+  }
+]
