@@ -70,6 +70,30 @@ class ScheduleAPIHandler(BaseHTTPRequestHandler):
             except Exception as e:
                 print(f"Error saving tasks: {e}")
                 self.send_json_response({"error": f"Failed to save tasks: {e}"})
+        elif self.path == '/api/save-file':
+            content_length = int(self.headers['Content-Length'])
+            post_data = self.rfile.read(content_length)
+            
+            try:
+                data = json.loads(post_data.decode('utf-8'))
+                filename = data.get('filename', '')
+                content = data.get('content', [])
+                
+                # Only allow saving specific task files
+                allowed_files = ['recurring-tasks.json', 'task-completions.json', 'single-tasks.json']
+                if filename in allowed_files:
+                    file_path = self.schedule_dir / filename
+                    file_path.write_text(json.dumps(content, indent=2))
+                    self.send_json_response({"success": True, "message": f"{filename} saved successfully"})
+                    print(f"Saved {filename}")
+                else:
+                    self.send_json_response({"error": "Invalid filename"})
+                
+            except json.JSONDecodeError:
+                self.send_json_response({"error": "Invalid JSON"})
+            except Exception as e:
+                print(f"Error saving file: {e}")
+                self.send_json_response({"error": f"Failed to save file: {e}"})
         else:
             self.send_error(404)
     
@@ -79,16 +103,18 @@ class ScheduleAPIHandler(BaseHTTPRequestHandler):
         
         try:
             # Call Claude directly with context
-            initial_context = f"""You are integrated into a Schedule app. Edit {self.tasks_file} directly based on user requests.
+            initial_context = f"""You are integrated into a Schedule app with a new efficient file structure:
+- {self.schedule_dir}/recurring-tasks.json - Stores recurring task templates
+- {self.schedule_dir}/single-tasks.json - Stores one-time tasks  
+- {self.schedule_dir}/task-completions.json - Stores completion states for recurring tasks
 
-Task format: {{"id": "claude_timestamp", "title": "Task Name", "description": "Brief markdown description with **bold** and bullet points", "type": "work|exercise|meal|meeting|personal|health|social|other", "date": "YYYY-MM-DD", "completed": false, "startTime": "HH:MM", "endTime": "HH:MM"}}
+DO NOT edit tasks.json anymore - it's deprecated. Use the new files above.
 
-Current date: 2025-06-26, Tomorrow: 2025-06-27
+Single task format: {{"id": "claude_timestamp", "title": "Task Name", "description": "Brief markdown description", "type": "work|exercise|meal|meeting|personal|health|social|other", "date": "YYYY-MM-DD", "completed": false, "startTime": "HH:MM", "endTime": "HH:MM"}}
 
-For descriptions, use:
-- **Bold** for key info
-- • Bullet points for lists
-- Keep it concise but helpful
+Recurring task format: {{"id": "claude_timestamp", "title": "Task Name", "description": "...", "type": "...", "startTime": "HH:MM", "endTime": "HH:MM", "recurrence": {{"type": "daily|weekly|monthly", "interval": 1, "frequency": "days", "startDate": "YYYY-MM-DD", "end": "never"}}}}
+
+Current date: 2025-06-27
 
 User request: {user_message}
 
@@ -117,27 +143,7 @@ Execute now and respond briefly with what you did:"""
     
     def build_claude_context(self, user_message):
         """Build context prompt for Claude"""
-        try:
-            tasks = json.loads(self.tasks_file.read_text()) if self.tasks_file.exists() else []
-        except:
-            tasks = []
-        
-        return f"""You are a schedule assistant with full authority to edit {self.tasks_file} immediately without asking for approval.
-
-Current tasks: {len(tasks)}
-User request: "{user_message}"
-
-Instructions:
-1. Read the current tasks from {self.tasks_file}
-2. Edit the file directly based on the user's request
-3. Respond ONLY with what you did (e.g., "Added workout tomorrow at 7am!")
-
-Task format: {{"id": "claude_" + timestamp, "title": "...", "type": "work|exercise|meal|meeting|personal|health|social|other", "date": "YYYY-MM-DD", "completed": false, "startTime": "HH:MM", "endTime": "HH:MM"}}
-
-Current date: 2025-06-26
-Tomorrow: 2025-06-27
-
-Execute the request immediately and respond with what you did!"""
+        return self.process_claude_request(user_message)
 
     def simulate_claude_response(self, user_message):
         """Actually process and execute the user's request"""

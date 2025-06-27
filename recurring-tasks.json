@@ -1,0 +1,32 @@
+[
+  {
+    "id": "claude_1719491627000",
+    "title": "No Screens / Bedtime Routine",
+    "description": "Wind down activities - reading, brushing teeth, drawing, or other screen-free activities",
+    "type": "health",
+    "startTime": "21:00",
+    "endTime": "21:30",
+    "recurrence": {
+      "type": "daily",
+      "interval": 1,
+      "frequency": "days",
+      "startDate": "2025-06-27",
+      "end": "never"
+    }
+  },
+  {
+    "id": "claude_1719491890000",
+    "title": "Bedtime",
+    "description": "Time to sleep",
+    "type": "bedtime",
+    "startTime": "22:00",
+    "endTime": "22:00",
+    "recurrence": {
+      "type": "daily",
+      "interval": 1,
+      "frequency": "days",
+      "end": "never",
+      "startDate": "2025-06-27"
+    }
+  }
+]

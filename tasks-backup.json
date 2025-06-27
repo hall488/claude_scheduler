@@ -1,8 +1,25 @@
 [
   {
+    "id": "claude_1719463800_0",
+    "title": "Bedtime",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
+    "type": "health",
+    "startTime": "22:00",
+    "endTime": "22:30",
+    "date": "2025-06-27",
+    "completed": false,
+    "recurrence": {
+      "type": "daily",
+      "interval": 1,
+      "frequency": "days",
+      "end": "never"
+    },
+    "recurrenceId": "claude_1719463800"
+  },
+  {
     "id": "claude_1719463800_1",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -19,7 +36,7 @@
   {
     "id": "claude_1719463800_2",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -36,7 +53,7 @@
   {
     "id": "claude_1719463800_3",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -53,7 +70,7 @@
   {
     "id": "claude_1719463800_4",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -70,7 +87,7 @@
   {
     "id": "claude_1719463800_5",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -87,7 +104,7 @@
   {
     "id": "claude_1719463800_6",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -104,7 +121,7 @@
   {
     "id": "claude_1719463800_7",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -121,7 +138,7 @@
   {
     "id": "claude_1719463800_8",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -138,7 +155,7 @@
   {
     "id": "claude_1719463800_9",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -155,7 +172,7 @@
   {
     "id": "claude_1719463800_10",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -172,7 +189,7 @@
   {
     "id": "claude_1719463800_11",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -189,7 +206,7 @@
   {
     "id": "claude_1719463800_12",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -206,7 +223,7 @@
   {
     "id": "claude_1719463800_13",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -223,7 +240,7 @@
   {
     "id": "claude_1719463800_14",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -240,7 +257,7 @@
   {
     "id": "claude_1719463800_15",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -257,7 +274,7 @@
   {
     "id": "claude_1719463800_16",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -274,7 +291,7 @@
   {
     "id": "claude_1719463800_17",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -291,7 +308,7 @@
   {
     "id": "claude_1719463800_18",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -308,7 +325,7 @@
   {
     "id": "claude_1719463800_19",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -325,7 +342,7 @@
   {
     "id": "claude_1719463800_20",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -342,7 +359,7 @@
   {
     "id": "claude_1719463800_21",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -359,7 +376,7 @@
   {
     "id": "claude_1719463800_22",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -376,7 +393,7 @@
   {
     "id": "claude_1719463800_23",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -393,7 +410,7 @@
   {
     "id": "claude_1719463800_24",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -410,7 +427,7 @@
   {
     "id": "claude_1719463800_25",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -427,7 +444,7 @@
   {
     "id": "claude_1719463800_26",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -444,7 +461,7 @@
   {
     "id": "claude_1719463800_27",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -461,7 +478,7 @@
   {
     "id": "claude_1719463800_28",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -478,7 +495,7 @@
   {
     "id": "claude_1719463800_29",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -495,7 +512,7 @@
   {
     "id": "claude_1719463800_30",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -512,7 +529,7 @@
   {
     "id": "claude_1719463800_31",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -529,7 +546,7 @@
   {
     "id": "claude_1719463800_32",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -546,7 +563,7 @@
   {
     "id": "claude_1719463800_33",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -563,7 +580,7 @@
   {
     "id": "claude_1719463800_34",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -580,7 +597,7 @@
   {
     "id": "claude_1719463800_35",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -597,7 +614,7 @@
   {
     "id": "claude_1719463800_36",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -614,7 +631,7 @@
   {
     "id": "claude_1719463800_37",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -631,7 +648,7 @@
   {
     "id": "claude_1719463800_38",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -648,7 +665,7 @@
   {
     "id": "claude_1719463800_39",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -665,7 +682,7 @@
   {
     "id": "claude_1719463800_40",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -682,7 +699,7 @@
   {
     "id": "claude_1719463800_41",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -699,7 +716,7 @@
   {
     "id": "claude_1719463800_42",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -716,7 +733,7 @@
   {
     "id": "claude_1719463800_43",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -733,7 +750,7 @@
   {
     "id": "claude_1719463800_44",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -750,7 +767,7 @@
   {
     "id": "claude_1719463800_45",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -767,7 +784,7 @@
   {
     "id": "claude_1719463800_46",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -784,7 +801,7 @@
   {
     "id": "claude_1719463800_47",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -801,7 +818,7 @@
   {
     "id": "claude_1719463800_48",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -818,7 +835,7 @@
   {
     "id": "claude_1719463800_49",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -835,7 +852,7 @@
   {
     "id": "claude_1719463800_50",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -852,7 +869,7 @@
   {
     "id": "claude_1719463800_51",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -869,7 +886,7 @@
   {
     "id": "claude_1719463800_52",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -886,7 +903,7 @@
   {
     "id": "claude_1719463800_53",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -903,7 +920,7 @@
   {
     "id": "claude_1719463800_54",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -920,7 +937,7 @@
   {
     "id": "claude_1719463800_55",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -937,7 +954,7 @@
   {
     "id": "claude_1719463800_56",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -954,7 +971,7 @@
   {
     "id": "claude_1719463800_57",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -971,7 +988,7 @@
   {
     "id": "claude_1719463800_58",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -988,7 +1005,7 @@
   {
     "id": "claude_1719463800_59",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1005,7 +1022,7 @@
   {
     "id": "claude_1719463800_60",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1022,7 +1039,7 @@
   {
     "id": "claude_1719463800_61",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1039,7 +1056,7 @@
   {
     "id": "claude_1719463800_62",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1056,7 +1073,7 @@
   {
     "id": "claude_1719463800_63",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1073,7 +1090,7 @@
   {
     "id": "claude_1719463800_64",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1090,7 +1107,7 @@
   {
     "id": "claude_1719463800_65",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1107,7 +1124,7 @@
   {
     "id": "claude_1719463800_66",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1124,7 +1141,7 @@
   {
     "id": "claude_1719463800_67",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1141,7 +1158,7 @@
   {
     "id": "claude_1719463800_68",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1158,7 +1175,7 @@
   {
     "id": "claude_1719463800_69",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1175,7 +1192,7 @@
   {
     "id": "claude_1719463800_70",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1192,7 +1209,7 @@
   {
     "id": "claude_1719463800_71",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1209,7 +1226,7 @@
   {
     "id": "claude_1719463800_72",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1226,7 +1243,7 @@
   {
     "id": "claude_1719463800_73",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1243,7 +1260,7 @@
   {
     "id": "claude_1719463800_74",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1260,7 +1277,7 @@
   {
     "id": "claude_1719463800_75",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1277,7 +1294,7 @@
   {
     "id": "claude_1719463800_76",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1294,7 +1311,7 @@
   {
     "id": "claude_1719463800_77",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1311,7 +1328,7 @@
   {
     "id": "claude_1719463800_78",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1328,7 +1345,7 @@
   {
     "id": "claude_1719463800_79",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1345,7 +1362,7 @@
   {
     "id": "claude_1719463800_80",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1362,7 +1379,7 @@
   {
     "id": "claude_1719463800_81",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1379,7 +1396,7 @@
   {
     "id": "claude_1719463800_82",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1396,7 +1413,7 @@
   {
     "id": "claude_1719463800_83",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1413,7 +1430,7 @@
   {
     "id": "claude_1719463800_84",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1430,7 +1447,7 @@
   {
     "id": "claude_1719463800_85",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1447,7 +1464,7 @@
   {
     "id": "claude_1719463800_86",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1464,7 +1481,7 @@
   {
     "id": "claude_1719463800_87",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1481,7 +1498,7 @@
   {
     "id": "claude_1719463800_88",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1498,7 +1515,7 @@
   {
     "id": "claude_1719463800_89",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1515,7 +1532,7 @@
   {
     "id": "claude_1719463800_90",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1532,7 +1549,7 @@
   {
     "id": "claude_1719463800_91",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1549,7 +1566,7 @@
   {
     "id": "claude_1719463800_92",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1566,7 +1583,7 @@
   {
     "id": "claude_1719463800_93",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1583,7 +1600,7 @@
   {
     "id": "claude_1719463800_94",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1600,7 +1617,7 @@
   {
     "id": "claude_1719463800_95",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1617,7 +1634,7 @@
   {
     "id": "claude_1719463800_96",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1634,7 +1651,7 @@
   {
     "id": "claude_1719463800_97",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1651,7 +1668,7 @@
   {
     "id": "claude_1719463800_98",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1668,7 +1685,7 @@
   {
     "id": "claude_1719463800_99",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1685,7 +1702,7 @@
   {
     "id": "claude_1719463800_100",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1702,7 +1719,7 @@
   {
     "id": "claude_1719463800_101",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1719,7 +1736,7 @@
   {
     "id": "claude_1719463800_102",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1736,7 +1753,7 @@
   {
     "id": "claude_1719463800_103",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1753,7 +1770,7 @@
   {
     "id": "claude_1719463800_104",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1770,7 +1787,7 @@
   {
     "id": "claude_1719463800_105",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1787,7 +1804,7 @@
   {
     "id": "claude_1719463800_106",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1804,7 +1821,7 @@
   {
     "id": "claude_1719463800_107",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1821,7 +1838,7 @@
   {
     "id": "claude_1719463800_108",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1838,7 +1855,7 @@
   {
     "id": "claude_1719463800_109",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1855,7 +1872,7 @@
   {
     "id": "claude_1719463800_110",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1872,7 +1889,7 @@
   {
     "id": "claude_1719463800_111",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1889,7 +1906,7 @@
   {
     "id": "claude_1719463800_112",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1906,7 +1923,7 @@
   {
     "id": "claude_1719463800_113",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1923,7 +1940,7 @@
   {
     "id": "claude_1719463800_114",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1940,7 +1957,7 @@
   {
     "id": "claude_1719463800_115",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1957,7 +1974,7 @@
   {
     "id": "claude_1719463800_116",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1974,7 +1991,7 @@
   {
     "id": "claude_1719463800_117",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -1991,7 +2008,7 @@
   {
     "id": "claude_1719463800_118",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2008,7 +2025,7 @@
   {
     "id": "claude_1719463800_119",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2025,7 +2042,7 @@
   {
     "id": "claude_1719463800_120",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2042,7 +2059,7 @@
   {
     "id": "claude_1719463800_121",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2059,7 +2076,7 @@
   {
     "id": "claude_1719463800_122",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2076,7 +2093,7 @@
   {
     "id": "claude_1719463800_123",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2093,7 +2110,7 @@
   {
     "id": "claude_1719463800_124",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2110,7 +2127,7 @@
   {
     "id": "claude_1719463800_125",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2127,7 +2144,7 @@
   {
     "id": "claude_1719463800_126",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2144,7 +2161,7 @@
   {
     "id": "claude_1719463800_127",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2161,7 +2178,7 @@
   {
     "id": "claude_1719463800_128",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2178,7 +2195,7 @@
   {
     "id": "claude_1719463800_129",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2195,7 +2212,7 @@
   {
     "id": "claude_1719463800_130",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2212,7 +2229,7 @@
   {
     "id": "claude_1719463800_131",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2229,7 +2246,7 @@
   {
     "id": "claude_1719463800_132",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2246,7 +2263,7 @@
   {
     "id": "claude_1719463800_133",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2263,7 +2280,7 @@
   {
     "id": "claude_1719463800_134",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2280,7 +2297,7 @@
   {
     "id": "claude_1719463800_135",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2297,7 +2314,7 @@
   {
     "id": "claude_1719463800_136",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2314,7 +2331,7 @@
   {
     "id": "claude_1719463800_137",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2331,7 +2348,7 @@
   {
     "id": "claude_1719463800_138",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2348,7 +2365,7 @@
   {
     "id": "claude_1719463800_139",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2365,7 +2382,7 @@
   {
     "id": "claude_1719463800_140",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2382,7 +2399,7 @@
   {
     "id": "claude_1719463800_141",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2399,7 +2416,7 @@
   {
     "id": "claude_1719463800_142",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2416,7 +2433,7 @@
   {
     "id": "claude_1719463800_143",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2433,7 +2450,7 @@
   {
     "id": "claude_1719463800_144",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2450,7 +2467,7 @@
   {
     "id": "claude_1719463800_145",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2467,7 +2484,7 @@
   {
     "id": "claude_1719463800_146",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2484,7 +2501,7 @@
   {
     "id": "claude_1719463800_147",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2501,7 +2518,7 @@
   {
     "id": "claude_1719463800_148",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2518,7 +2535,7 @@
   {
     "id": "claude_1719463800_149",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2535,7 +2552,7 @@
   {
     "id": "claude_1719463800_150",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2552,7 +2569,7 @@
   {
     "id": "claude_1719463800_151",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2569,7 +2586,7 @@
   {
     "id": "claude_1719463800_152",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2586,7 +2603,7 @@
   {
     "id": "claude_1719463800_153",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2603,7 +2620,7 @@
   {
     "id": "claude_1719463800_154",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2620,7 +2637,7 @@
   {
     "id": "claude_1719463800_155",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2637,7 +2654,7 @@
   {
     "id": "claude_1719463800_156",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2654,7 +2671,7 @@
   {
     "id": "claude_1719463800_157",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2671,7 +2688,7 @@
   {
     "id": "claude_1719463800_158",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2688,7 +2705,7 @@
   {
     "id": "claude_1719463800_159",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2705,7 +2722,7 @@
   {
     "id": "claude_1719463800_160",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2722,7 +2739,7 @@
   {
     "id": "claude_1719463800_161",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2739,7 +2756,7 @@
   {
     "id": "claude_1719463800_162",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2756,7 +2773,7 @@
   {
     "id": "claude_1719463800_163",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2773,7 +2790,7 @@
   {
     "id": "claude_1719463800_164",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2790,7 +2807,7 @@
   {
     "id": "claude_1719463800_165",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2807,7 +2824,7 @@
   {
     "id": "claude_1719463800_166",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2824,7 +2841,7 @@
   {
     "id": "claude_1719463800_167",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2841,7 +2858,7 @@
   {
     "id": "claude_1719463800_168",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2858,7 +2875,7 @@
   {
     "id": "claude_1719463800_169",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2875,7 +2892,7 @@
   {
     "id": "claude_1719463800_170",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2892,7 +2909,7 @@
   {
     "id": "claude_1719463800_171",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2909,7 +2926,7 @@
   {
     "id": "claude_1719463800_172",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2926,7 +2943,7 @@
   {
     "id": "claude_1719463800_173",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2943,7 +2960,7 @@
   {
     "id": "claude_1719463800_174",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2960,7 +2977,7 @@
   {
     "id": "claude_1719463800_175",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2977,7 +2994,7 @@
   {
     "id": "claude_1719463800_176",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -2994,7 +3011,7 @@
   {
     "id": "claude_1719463800_177",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3011,7 +3028,7 @@
   {
     "id": "claude_1719463800_178",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3028,7 +3045,7 @@
   {
     "id": "claude_1719463800_179",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3045,7 +3062,7 @@
   {
     "id": "claude_1719463800_180",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3062,7 +3079,7 @@
   {
     "id": "claude_1719463800_181",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3079,7 +3096,7 @@
   {
     "id": "claude_1719463800_182",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3096,7 +3113,7 @@
   {
     "id": "claude_1719463800_183",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3113,7 +3130,7 @@
   {
     "id": "claude_1719463800_184",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3130,7 +3147,7 @@
   {
     "id": "claude_1719463800_185",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3147,7 +3164,7 @@
   {
     "id": "claude_1719463800_186",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3164,7 +3181,7 @@
   {
     "id": "claude_1719463800_187",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3181,7 +3198,7 @@
   {
     "id": "claude_1719463800_188",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3198,7 +3215,7 @@
   {
     "id": "claude_1719463800_189",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3215,7 +3232,7 @@
   {
     "id": "claude_1719463800_190",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3232,7 +3249,7 @@
   {
     "id": "claude_1719463800_191",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3249,7 +3266,7 @@
   {
     "id": "claude_1719463800_192",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3266,7 +3283,7 @@
   {
     "id": "claude_1719463800_193",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3283,7 +3300,7 @@
   {
     "id": "claude_1719463800_194",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3300,7 +3317,7 @@
   {
     "id": "claude_1719463800_195",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3317,7 +3334,7 @@
   {
     "id": "claude_1719463800_196",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3334,7 +3351,7 @@
   {
     "id": "claude_1719463800_197",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3351,7 +3368,7 @@
   {
     "id": "claude_1719463800_198",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3368,7 +3385,7 @@
   {
     "id": "claude_1719463800_199",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3385,7 +3402,7 @@
   {
     "id": "claude_1719463800_200",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3402,7 +3419,7 @@
   {
     "id": "claude_1719463800_201",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3419,7 +3436,7 @@
   {
     "id": "claude_1719463800_202",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3436,7 +3453,7 @@
   {
     "id": "claude_1719463800_203",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3453,7 +3470,7 @@
   {
     "id": "claude_1719463800_204",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3470,7 +3487,7 @@
   {
     "id": "claude_1719463800_205",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3487,7 +3504,7 @@
   {
     "id": "claude_1719463800_206",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3504,7 +3521,7 @@
   {
     "id": "claude_1719463800_207",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3521,7 +3538,7 @@
   {
     "id": "claude_1719463800_208",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3538,7 +3555,7 @@
   {
     "id": "claude_1719463800_209",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3555,7 +3572,7 @@
   {
     "id": "claude_1719463800_210",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3572,7 +3589,7 @@
   {
     "id": "claude_1719463800_211",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3589,7 +3606,7 @@
   {
     "id": "claude_1719463800_212",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3606,7 +3623,7 @@
   {
     "id": "claude_1719463800_213",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3623,7 +3640,7 @@
   {
     "id": "claude_1719463800_214",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3640,7 +3657,7 @@
   {
     "id": "claude_1719463800_215",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3657,7 +3674,7 @@
   {
     "id": "claude_1719463800_216",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3674,7 +3691,7 @@
   {
     "id": "claude_1719463800_217",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3691,7 +3708,7 @@
   {
     "id": "claude_1719463800_218",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3708,7 +3725,7 @@
   {
     "id": "claude_1719463800_219",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3725,7 +3742,7 @@
   {
     "id": "claude_1719463800_220",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3742,7 +3759,7 @@
   {
     "id": "claude_1719463800_221",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3759,7 +3776,7 @@
   {
     "id": "claude_1719463800_222",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3776,7 +3793,7 @@
   {
     "id": "claude_1719463800_223",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3793,7 +3810,7 @@
   {
     "id": "claude_1719463800_224",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3810,7 +3827,7 @@
   {
     "id": "claude_1719463800_225",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3827,7 +3844,7 @@
   {
     "id": "claude_1719463800_226",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3844,7 +3861,7 @@
   {
     "id": "claude_1719463800_227",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3861,7 +3878,7 @@
   {
     "id": "claude_1719463800_228",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3878,7 +3895,7 @@
   {
     "id": "claude_1719463800_229",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3895,7 +3912,7 @@
   {
     "id": "claude_1719463800_230",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3912,7 +3929,7 @@
   {
     "id": "claude_1719463800_231",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3929,7 +3946,7 @@
   {
     "id": "claude_1719463800_232",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3946,7 +3963,7 @@
   {
     "id": "claude_1719463800_233",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3963,7 +3980,7 @@
   {
     "id": "claude_1719463800_234",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3980,7 +3997,7 @@
   {
     "id": "claude_1719463800_235",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -3997,7 +4014,7 @@
   {
     "id": "claude_1719463800_236",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4014,7 +4031,7 @@
   {
     "id": "claude_1719463800_237",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4031,7 +4048,7 @@
   {
     "id": "claude_1719463800_238",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4048,7 +4065,7 @@
   {
     "id": "claude_1719463800_239",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4065,7 +4082,7 @@
   {
     "id": "claude_1719463800_240",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4082,7 +4099,7 @@
   {
     "id": "claude_1719463800_241",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4099,7 +4116,7 @@
   {
     "id": "claude_1719463800_242",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4116,7 +4133,7 @@
   {
     "id": "claude_1719463800_243",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4133,7 +4150,7 @@
   {
     "id": "claude_1719463800_244",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4150,7 +4167,7 @@
   {
     "id": "claude_1719463800_245",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4167,7 +4184,7 @@
   {
     "id": "claude_1719463800_246",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4184,7 +4201,7 @@
   {
     "id": "claude_1719463800_247",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4201,7 +4218,7 @@
   {
     "id": "claude_1719463800_248",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4218,7 +4235,7 @@
   {
     "id": "claude_1719463800_249",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4235,7 +4252,7 @@
   {
     "id": "claude_1719463800_250",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4252,7 +4269,7 @@
   {
     "id": "claude_1719463800_251",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4269,7 +4286,7 @@
   {
     "id": "claude_1719463800_252",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4286,7 +4303,7 @@
   {
     "id": "claude_1719463800_253",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4303,7 +4320,7 @@
   {
     "id": "claude_1719463800_254",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4320,7 +4337,7 @@
   {
     "id": "claude_1719463800_255",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4337,7 +4354,7 @@
   {
     "id": "claude_1719463800_256",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4354,7 +4371,7 @@
   {
     "id": "claude_1719463800_257",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4371,7 +4388,7 @@
   {
     "id": "claude_1719463800_258",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4388,7 +4405,7 @@
   {
     "id": "claude_1719463800_259",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4405,7 +4422,7 @@
   {
     "id": "claude_1719463800_260",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4422,7 +4439,7 @@
   {
     "id": "claude_1719463800_261",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4439,7 +4456,7 @@
   {
     "id": "claude_1719463800_262",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4456,7 +4473,7 @@
   {
     "id": "claude_1719463800_263",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4473,7 +4490,7 @@
   {
     "id": "claude_1719463800_264",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4490,7 +4507,7 @@
   {
     "id": "claude_1719463800_265",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4507,7 +4524,7 @@
   {
     "id": "claude_1719463800_266",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4524,7 +4541,7 @@
   {
     "id": "claude_1719463800_267",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4541,7 +4558,7 @@
   {
     "id": "claude_1719463800_268",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4558,7 +4575,7 @@
   {
     "id": "claude_1719463800_269",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4575,7 +4592,7 @@
   {
     "id": "claude_1719463800_270",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4592,7 +4609,7 @@
   {
     "id": "claude_1719463800_271",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4609,7 +4626,7 @@
   {
     "id": "claude_1719463800_272",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4626,7 +4643,7 @@
   {
     "id": "claude_1719463800_273",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4643,7 +4660,7 @@
   {
     "id": "claude_1719463800_274",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4660,7 +4677,7 @@
   {
     "id": "claude_1719463800_275",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4677,7 +4694,7 @@
   {
     "id": "claude_1719463800_276",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4694,7 +4711,7 @@
   {
     "id": "claude_1719463800_277",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4711,7 +4728,7 @@
   {
     "id": "claude_1719463800_278",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4728,7 +4745,7 @@
   {
     "id": "claude_1719463800_279",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4745,7 +4762,7 @@
   {
     "id": "claude_1719463800_280",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4762,7 +4779,7 @@
   {
     "id": "claude_1719463800_281",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4779,7 +4796,7 @@
   {
     "id": "claude_1719463800_282",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4796,7 +4813,7 @@
   {
     "id": "claude_1719463800_283",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4813,7 +4830,7 @@
   {
     "id": "claude_1719463800_284",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4830,7 +4847,7 @@
   {
     "id": "claude_1719463800_285",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4847,7 +4864,7 @@
   {
     "id": "claude_1719463800_286",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4864,7 +4881,7 @@
   {
     "id": "claude_1719463800_287",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4881,7 +4898,7 @@
   {
     "id": "claude_1719463800_288",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4898,7 +4915,7 @@
   {
     "id": "claude_1719463800_289",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4915,7 +4932,7 @@
   {
     "id": "claude_1719463800_290",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4932,7 +4949,7 @@
   {
     "id": "claude_1719463800_291",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4949,7 +4966,7 @@
   {
     "id": "claude_1719463800_292",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4966,7 +4983,7 @@
   {
     "id": "claude_1719463800_293",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -4983,7 +5000,7 @@
   {
     "id": "claude_1719463800_294",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5000,7 +5017,7 @@
   {
     "id": "claude_1719463800_295",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5017,7 +5034,7 @@
   {
     "id": "claude_1719463800_296",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5034,7 +5051,7 @@
   {
     "id": "claude_1719463800_297",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5051,7 +5068,7 @@
   {
     "id": "claude_1719463800_298",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5068,7 +5085,7 @@
   {
     "id": "claude_1719463800_299",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5085,7 +5102,7 @@
   {
     "id": "claude_1719463800_300",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5102,7 +5119,7 @@
   {
     "id": "claude_1719463800_301",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5119,7 +5136,7 @@
   {
     "id": "claude_1719463800_302",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5136,7 +5153,7 @@
   {
     "id": "claude_1719463800_303",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5153,7 +5170,7 @@
   {
     "id": "claude_1719463800_304",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5170,7 +5187,7 @@
   {
     "id": "claude_1719463800_305",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5187,7 +5204,7 @@
   {
     "id": "claude_1719463800_306",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5204,7 +5221,7 @@
   {
     "id": "claude_1719463800_307",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5221,7 +5238,7 @@
   {
     "id": "claude_1719463800_308",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5238,7 +5255,7 @@
   {
     "id": "claude_1719463800_309",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5255,7 +5272,7 @@
   {
     "id": "claude_1719463800_310",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5272,7 +5289,7 @@
   {
     "id": "claude_1719463800_311",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5289,7 +5306,7 @@
   {
     "id": "claude_1719463800_312",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5306,7 +5323,7 @@
   {
     "id": "claude_1719463800_313",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5323,7 +5340,7 @@
   {
     "id": "claude_1719463800_314",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5340,7 +5357,7 @@
   {
     "id": "claude_1719463800_315",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5357,7 +5374,7 @@
   {
     "id": "claude_1719463800_316",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5374,7 +5391,7 @@
   {
     "id": "claude_1719463800_317",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5391,7 +5408,7 @@
   {
     "id": "claude_1719463800_318",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5408,7 +5425,7 @@
   {
     "id": "claude_1719463800_319",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5425,7 +5442,7 @@
   {
     "id": "claude_1719463800_320",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5442,7 +5459,7 @@
   {
     "id": "claude_1719463800_321",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5459,7 +5476,7 @@
   {
     "id": "claude_1719463800_322",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5476,7 +5493,7 @@
   {
     "id": "claude_1719463800_323",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5493,7 +5510,7 @@
   {
     "id": "claude_1719463800_324",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5510,7 +5527,7 @@
   {
     "id": "claude_1719463800_325",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5527,7 +5544,7 @@
   {
     "id": "claude_1719463800_326",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5544,7 +5561,7 @@
   {
     "id": "claude_1719463800_327",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5561,7 +5578,7 @@
   {
     "id": "claude_1719463800_328",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5578,7 +5595,7 @@
   {
     "id": "claude_1719463800_329",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5595,7 +5612,7 @@
   {
     "id": "claude_1719463800_330",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5612,7 +5629,7 @@
   {
     "id": "claude_1719463800_331",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5629,7 +5646,7 @@
   {
     "id": "claude_1719463800_332",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5646,7 +5663,7 @@
   {
     "id": "claude_1719463800_333",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5663,7 +5680,7 @@
   {
     "id": "claude_1719463800_334",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5680,7 +5697,7 @@
   {
     "id": "claude_1719463800_335",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5697,7 +5714,7 @@
   {
     "id": "claude_1719463800_336",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5714,7 +5731,7 @@
   {
     "id": "claude_1719463800_337",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5731,7 +5748,7 @@
   {
     "id": "claude_1719463800_338",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5748,7 +5765,7 @@
   {
     "id": "claude_1719463800_339",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5765,7 +5782,7 @@
   {
     "id": "claude_1719463800_340",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5782,7 +5799,7 @@
   {
     "id": "claude_1719463800_341",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5799,7 +5816,7 @@
   {
     "id": "claude_1719463800_342",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5816,7 +5833,7 @@
   {
     "id": "claude_1719463800_343",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5833,7 +5850,7 @@
   {
     "id": "claude_1719463800_344",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5850,7 +5867,7 @@
   {
     "id": "claude_1719463800_345",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5867,7 +5884,7 @@
   {
     "id": "claude_1719463800_346",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5884,7 +5901,7 @@
   {
     "id": "claude_1719463800_347",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5901,7 +5918,7 @@
   {
     "id": "claude_1719463800_348",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5918,7 +5935,7 @@
   {
     "id": "claude_1719463800_349",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5935,7 +5952,7 @@
   {
     "id": "claude_1719463800_350",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5952,7 +5969,7 @@
   {
     "id": "claude_1719463800_351",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5969,7 +5986,7 @@
   {
     "id": "claude_1719463800_352",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -5986,7 +6003,7 @@
   {
     "id": "claude_1719463800_353",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6003,7 +6020,7 @@
   {
     "id": "claude_1719463800_354",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6020,7 +6037,7 @@
   {
     "id": "claude_1719463800_355",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6037,7 +6054,7 @@
   {
     "id": "claude_1719463800_356",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6054,7 +6071,7 @@
   {
     "id": "claude_1719463800_357",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6071,7 +6088,7 @@
   {
     "id": "claude_1719463800_358",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6088,7 +6105,7 @@
   {
     "id": "claude_1719463800_359",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6105,7 +6122,7 @@
   {
     "id": "claude_1719463800_360",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6122,7 +6139,7 @@
   {
     "id": "claude_1719463800_361",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6139,7 +6156,7 @@
   {
     "id": "claude_1719463800_362",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6156,7 +6173,7 @@
   {
     "id": "claude_1719463800_363",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6173,7 +6190,7 @@
   {
     "id": "claude_1719463800_364",
     "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
+    "description": "• **Wind down routine** before 10:00pm\n• Get into bed around 10:00pm for better sleep",
     "type": "health",
     "startTime": "22:00",
     "endTime": "22:30",
@@ -6186,906 +6203,5 @@
       "end": "never"
     },
     "recurrenceId": "claude_1719463800"
-  },
-  {
-    "id": "claude_1719463800_0_0",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-06-27",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_1",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-07-04",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_2",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-07-11",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_3",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-07-18",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_4",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-07-25",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_5",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-08-01",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_6",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-08-08",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_7",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-08-15",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_8",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-08-22",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_9",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-08-29",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_10",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-09-05",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_11",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-09-12",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_12",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-09-19",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_13",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-09-26",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_14",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-10-03",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_15",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-10-10",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_16",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-10-17",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_17",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-10-24",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_18",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-10-31",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_19",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-11-07",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_20",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-11-14",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_21",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-11-21",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_22",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-11-28",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_23",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-12-05",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_24",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-12-12",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_25",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-12-19",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_26",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2025-12-26",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_27",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-01-02",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_28",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-01-09",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_29",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-01-16",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_30",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-01-23",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_31",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-01-30",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_32",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-02-06",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_33",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-02-13",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_34",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-02-20",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_35",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-02-27",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_36",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-03-06",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_37",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-03-13",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_38",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-03-20",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_39",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-03-27",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_40",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-04-03",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_41",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-04-10",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_42",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-04-17",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_43",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-04-24",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_44",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-05-01",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_45",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-05-08",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_46",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-05-15",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_47",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-05-22",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_48",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-05-29",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_49",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-06-05",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_50",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-06-12",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_51",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-06-19",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
-  },
-  {
-    "id": "claude_1719463800_0_52",
-    "title": "Bedtime",
-    "description": "\u2022 **Wind down routine** before 10:00pm\n\u2022 Get into bed around 10:00pm for better sleep",
-    "type": "health",
-    "startTime": "22:00",
-    "endTime": "22:30",
-    "date": "2026-06-26",
-    "completed": false,
-    "recurrence": {
-      "type": "weekly",
-      "interval": 1,
-      "frequency": "days",
-      "end": "never"
-    },
-    "recurrenceId": "claude_1719463800_0"
   }
 ]

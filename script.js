@@ -3,10 +3,11 @@ class ScheduleApp {
         this.currentDate = new Date();
         this.selectedDate = new Date();
         this.currentView = 'month';
-        this.tasks = [];
+        this.taskManager = new TaskManager();
         this.editingTask = null;
         this.isDarkMode = localStorage.getItem('darkMode') === 'true';
         this.userIsEditing = false; // Track when user is making changes
+        this.changeSource = 'user'; // Track if changes come from 'user' or 'claude'
         this.chatHistory = []; // Store recent chat messages for context
         this.apiBaseUrl = this.getApiBaseUrl(); // Detect API URL based on current host
         
@@ -23,10 +24,22 @@ class ScheduleApp {
     }
 
     async init() {
-        console.log('Loading from file-based storage only');
+        console.log('Loading from new task management system');
+        console.log('Today is:', new Date());
+        console.log('Selected date is:', this.selectedDate);
+        console.log('Current date is:', this.currentDate);
         
-        this.tasks = await this.loadTasks();
+        await this.taskManager.loadTasks();
+        
+        // FORCE today to be selected from the start
+        const today = new Date();
+        today.setHours(0, 0, 0, 0); // Reset to start of day in local timezone
+        this.selectedDate = today;
+        this.selectedDateEl.textContent = this.formatDate(today);
+        
+        // Render with today selected
         this.render();
+        
         this.startFileWatcher();
     }
 
@@ -278,6 +291,15 @@ class ScheduleApp {
 
         // Add drag and drop support
         this.addWeekDragAndDropListeners(dayEl);
+        
+        // Add double-click handlers to tasks
+        dayEl.querySelectorAll('.task-mini').forEach(taskEl => {
+            taskEl.addEventListener('dblclick', (e) => {
+                e.stopPropagation();
+                const taskId = taskEl.getAttribute('data-task-id');
+                this.editTask(taskId);
+            });
+        });
 
         return dayEl;
     }
@@ -346,6 +368,7 @@ class ScheduleApp {
     }
 
     openTaskModal(task = null) {
+        console.log('openTaskModal called with task:', task);
         this.editingTask = task;
         
         if (task) {
@@ -382,7 +405,9 @@ class ScheduleApp {
             document.getElementById('customRecurrence').style.display = 'none';
         }
         
+        console.log('Setting modal display to block');
         this.taskModal.style.display = 'block';
+        console.log('Modal element:', this.taskModal);
     }
 
     closeTaskModal() {
@@ -398,8 +423,21 @@ class ScheduleApp {
         const endTime = document.getElementById('taskEndTime').value;
         const recurrence = document.getElementById('taskRecurrence').value;
 
+        let taskId;
+        if (this.editingTask) {
+            // For editing, preserve the original ID
+            taskId = this.editingTask.recurrenceId || this.editingTask.id;
+            // For recurring task instances, use the base recurring ID
+            if (taskId.includes('_')) {
+                taskId = taskId.split('_').slice(0, -1).join('_');
+            }
+        } else {
+            // For new tasks, generate a new ID
+            taskId = Date.now().toString();
+        }
+
         const task = {
-            id: this.editingTask ? this.editingTask.id : Date.now().toString(),
+            id: taskId,
             title,
             description,
             type,
@@ -408,6 +446,11 @@ class ScheduleApp {
             date: this.formatDateForStorage(this.selectedDate),
             completed: this.editingTask ? this.editingTask.completed || false : false
         };
+
+        // Preserve recurrenceId if editing a recurring task instance
+        if (this.editingTask && this.editingTask.recurrenceId) {
+            task.recurrenceId = this.editingTask.recurrenceId;
+        }
 
         // Add recurrence data if not 'none'
         if (recurrence !== 'none') {
@@ -431,20 +474,16 @@ class ScheduleApp {
             }
         }
 
+        console.log('Editing task?', !!this.editingTask);
+        console.log('Task to save:', task);
+        
         if (this.editingTask) {
-            const index = this.tasks.findIndex(t => t.id === this.editingTask.id);
-            this.tasks[index] = task;
+            console.log('Updating existing task');
+            await this.taskManager.updateTask(task);
         } else {
-            // For new tasks with recurrence, generate occurrences
-            if (task.recurrence) {
-                const occurrences = this.generateRecurringTasks(task);
-                this.tasks.push(...occurrences);
-            } else {
-                this.tasks.push(task);
-            }
+            console.log('Adding new task');
+            await this.taskManager.addTask(task);
         }
-
-        await this.saveTasks();
         this.closeTaskModal();
         
         // Preserve scroll position for day view
@@ -465,72 +504,69 @@ class ScheduleApp {
     }
 
     editTask(taskId) {
-        const task = this.tasks.find(t => t.id === taskId);
+        console.log('editTask called with taskId:', taskId);
+        const task = this.findTaskById(taskId);
+        console.log('Found task:', task);
         if (task) {
             this.openTaskModal(task);
+        } else {
+            console.error('Task not found:', taskId);
         }
+    }
+
+    findTaskById(taskId) {
+        console.log('findTaskById called with:', taskId);
+        console.log('Available recurring tasks:', this.taskManager.recurringTasks);
+        console.log('Available single tasks:', this.taskManager.singleTasks);
+        
+        // Check all possible task sources
+        const allTasks = [
+            ...this.taskManager.singleTasks,
+            ...this.taskManager.recurringTasks
+        ];
+        
+        // For recurring task instances, check if it matches a recurring task
+        if (taskId.includes('_')) {
+            const parts = taskId.split('_');
+            // Handle format: claude_1719506520_2025-06-27
+            const recurringId = parts.slice(0, -1).join('_'); // Everything except the date
+            const date = parts[parts.length - 1]; // The date part
+            
+            console.log('Looking for recurring task with ID:', recurringId);
+            const recurringTask = this.taskManager.recurringTasks.find(t => t.id === recurringId);
+            console.log('Found recurring task:', recurringTask);
+            
+            if (recurringTask) {
+                // Return the instance with the specific date
+                return this.taskManager.createTaskInstance(recurringTask, date);
+            }
+        }
+        
+        return allTasks.find(t => t.id === taskId);
     }
 
     async deleteTask(taskId) {
-        const task = this.tasks.find(t => t.id === taskId);
-        if (!task) return;
-
         let confirmMessage = 'Are you sure you want to delete this task?';
         
-        // Check if this is a recurring task
-        if (task.recurrenceId) {
-            // This is an instance of a recurring task
-            const recurringInstances = this.tasks.filter(t => 
-                t.recurrenceId === task.recurrenceId || t.id === task.recurrenceId
-            );
-            confirmMessage = `This is a recurring task with ${recurringInstances.length} instances. Delete all occurrences?`;
-            
-            if (confirm(confirmMessage)) {
-                // Delete all instances with the same recurrenceId
-                this.tasks = this.tasks.filter(t => 
-                    t.recurrenceId !== task.recurrenceId && t.id !== task.recurrenceId
-                );
-                await this.saveTasks();
-                this.render();
-            }
-        } else if (task.recurrence) {
-            // This is the parent recurring task
-            const recurringInstances = this.tasks.filter(t => t.recurrenceId === task.id);
-            if (recurringInstances.length > 0) {
-                confirmMessage = `This recurring task has ${recurringInstances.length + 1} instances. Delete all occurrences?`;
-            }
-            
-            if (confirm(confirmMessage)) {
-                // Delete the parent and all its instances
-                this.tasks = this.tasks.filter(t => 
-                    t.id !== taskId && t.recurrenceId !== taskId
-                );
-                this.saveTasks();
-                this.render();
-            }
-        } else {
-            // Regular non-recurring task
-            if (confirm(confirmMessage)) {
-                this.tasks = this.tasks.filter(t => t.id !== taskId);
-                this.saveTasks();
-                this.render();
-            }
+        if (taskId.includes('_')) {
+            confirmMessage = 'This is a recurring task. Delete all occurrences?';
         }
-    }
-
-    async toggleTaskComplete(taskId) {
-        const task = this.tasks.find(t => t.id === taskId);
-        if (task) {
-            task.completed = !task.completed;
-            await this.saveTasks();
+        
+        if (confirm(confirmMessage)) {
+            this.changeSource = 'user';
+            await this.taskManager.deleteTask(taskId);
             this.render();
         }
     }
 
+    async toggleTaskComplete(taskId) {
+        this.changeSource = 'user';
+        await this.taskManager.toggleTaskComplete(taskId);
+        this.render();
+    }
+
     getTasksForDate(date) {
-        const dateStr = this.formatDateForStorage(date);
-        return this.tasks.filter(task => task.date === dateStr)
-                         .sort((a, b) => (a.startTime || a.time || '').localeCompare(b.startTime || b.time || ''));
+        return this.taskManager.getTasksForDate(date);
     }
 
     formatDate(date) {
@@ -558,178 +594,34 @@ class ScheduleApp {
     }
 
     async loadTasks() {
-        try {
-            // ONLY load from tasks.json - no localStorage fallback
-            const response = await fetch('./tasks.json?t=' + Date.now());
-            if (response.ok) {
-                const fileTasks = await response.json();
-                console.log('Loaded tasks from file:', fileTasks.length);
-                return fileTasks;
-            } else {
-                throw new Error('Failed to load tasks.json');
-            }
-        } catch (error) {
-            console.error('Could not load from tasks.json:', error);
-            return []; // Return empty array if file can't be loaded
-        }
+        // This method is no longer needed - TaskManager handles it
+        return [];
     }
 
     async saveTasks(source = 'user') {
-        console.log('Saving tasks to file...');
+        console.log('Saving tasks through TaskManager...');
         
-        // Set flag to indicate user is making changes (only for user changes)
         if (source === 'user') {
-            this.userIsEditing = true;
-        }
-        
-        try {
-            // Write tasks directly to file through the save endpoint
-            const response = await fetch(`${this.apiBaseUrl}/api/save-tasks`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ tasks: this.tasks, source: source })
-            });
-            
-            if (response.ok) {
-                const result = await response.json();
-                console.log('Tasks saved to file successfully:', result.message);
-                
-                // Clear the flag after a short delay (only for user changes)
-                if (source === 'user') {
-                    setTimeout(() => {
-                        this.userIsEditing = false;
-                    }, 3000);
-                }
-            } else {
-                if (source === 'user') {
-                    this.userIsEditing = false;
-                }
-                console.error('Failed to save tasks to file');
-                throw new Error('API server save failed');
-            }
-        } catch (error) {
-            if (source === 'user') {
-                this.userIsEditing = false;
-            }
-            console.error('Error saving tasks:', error);
-            throw error; // Don't silently fail
+            this.changeSource = 'user';
         }
     }
 
     async reloadFromFile() {
         try {
-            const response = await fetch('./tasks.json?t=' + Date.now()); // Cache busting
-            if (response.ok) {
-                this.tasks = await response.json();
-                
-                // Process any recurring tasks that Claude may have created
-                await this.processClaudeRecurringTasks();
-                this.render();
-                console.log('Reloaded tasks from file');
-                return true;
-            }
+            await this.taskManager.loadTasks();
+            this.render();
+            console.log('Reloaded tasks from files');
+            return true;
         } catch (error) {
-            console.error('Failed to reload from file:', error);
+            console.error('Failed to reload from files:', error);
             return false;
         }
     }
 
-    async processClaudeRecurringTasks() {
-        // Find tasks with recurrence metadata but no generated instances
-        const recurringTasks = this.tasks.filter(task => 
-            task.recurrence && !task.recurrenceId && 
-            !this.tasks.some(t => t.recurrenceId === task.id)
-        );
-        
-        if (recurringTasks.length > 0) {
-            console.log(`Found ${recurringTasks.length} Claude recurring tasks to process`);
-            
-            // Generate instances for each recurring task
-            recurringTasks.forEach(task => {
-                const occurrences = this.generateRecurringTasks(task);
-                // Remove the original single task and add all occurrences
-                const taskIndex = this.tasks.findIndex(t => t.id === task.id);
-                if (taskIndex !== -1) {
-                    this.tasks.splice(taskIndex, 1);
-                    this.tasks.push(...occurrences);
-                }
-            });
-            
-            // Save the updated tasks back to ensure consistency
-            await this.saveTasks('claude');
-        }
-    }
+    // This method is no longer needed with the new task management system
 
 
-    generateRecurringTasks(baseTask) {
-        const tasks = [];
-        const recurrence = baseTask.recurrence;
-        let currentDate = new Date(baseTask.date);
-        let count = 0;
-        const maxOccurrences = 365; // Safety limit
-
-        // Determine interval based on recurrence type
-        let intervalDays = 1;
-        if (recurrence.type === 'daily' || recurrence.type === 'custom') {
-            switch (recurrence.frequency || 'days') {
-                case 'days': intervalDays = recurrence.interval || 1; break;
-                case 'weeks': intervalDays = (recurrence.interval || 1) * 7; break;
-                case 'months': intervalDays = (recurrence.interval || 1) * 30; break; // Approximation
-                case 'years': intervalDays = (recurrence.interval || 1) * 365; break;
-            }
-        } else {
-            switch (recurrence.type) {
-                case 'daily': intervalDays = 1; break;
-                case 'weekly': intervalDays = 7; break;
-                case 'monthly': intervalDays = 30; break; // Approximation
-                case 'yearly': intervalDays = 365; break;
-            }
-        }
-
-        // Generate occurrences
-        while (count < maxOccurrences) {
-            // Create task for current date
-            const taskCopy = {
-                ...baseTask,
-                id: `${baseTask.id}_${count}`,
-                date: this.formatDateForStorage(currentDate),
-                recurrenceId: baseTask.id // Link to parent recurrence
-            };
-            tasks.push(taskCopy);
-            count++;
-
-            // Check end conditions
-            if (recurrence.end === 'after' && count >= (recurrence.count || 10)) {
-                break;
-            }
-            if (recurrence.end === 'on') {
-                const endDate = new Date(recurrence.endDate);
-                if (currentDate >= endDate) {
-                    break;
-                }
-            }
-
-            // Move to next occurrence
-            if (recurrence.type === 'monthly' || (recurrence.type === 'custom' && recurrence.frequency === 'months')) {
-                // Handle month-based recurrence properly
-                const interval = recurrence.interval || 1;
-                currentDate.setMonth(currentDate.getMonth() + interval);
-            } else {
-                currentDate.setDate(currentDate.getDate() + intervalDays);
-            }
-
-            // For 'never' ending recurrence, generate 1 year of occurrences
-            if (recurrence.end === 'never') {
-                const oneYearFromStart = new Date(baseTask.date);
-                oneYearFromStart.setFullYear(oneYearFromStart.getFullYear() + 1);
-                if (currentDate > oneYearFromStart) {
-                    break;
-                }
-            }
-        }
-
-        return tasks;
-    }
+    // generateRecurringTasks method is no longer needed with the new task management system
 
     getTaskTypeColor(type) {
         const colors = {
@@ -816,6 +708,14 @@ class ScheduleApp {
             const taskBlock = this.createTaskBlock(taskLayout.task);
             this.positionTaskInTimeTable(taskBlock, taskLayout.task, taskLayout.column, taskLayout.totalColumns);
             timeGrid.appendChild(taskBlock);
+        });
+        
+        // Add drop listeners to time slots for drag and drop
+        timeGrid.querySelectorAll('.time-slot').forEach(timeSlot => {
+            timeSlot.addEventListener('dragover', this.handleDragOver);
+            timeSlot.addEventListener('drop', (event) => this.handleDrop(event));
+            timeSlot.addEventListener('dragenter', this.handleDragEnter);
+            timeSlot.addEventListener('dragleave', this.handleDragLeave);
         });
         
         // Restore scroll position
@@ -979,10 +879,12 @@ class ScheduleApp {
     }
 
     async moveTaskToDate(taskId, newDate) {
-        const task = this.tasks.find(t => t.id === taskId);
+        const task = this.findTaskById(taskId);
         if (task && task.date !== newDate) {
+            this.userIsEditing = true;
+            setTimeout(() => { this.userIsEditing = false; }, 3000);
             task.date = newDate;
-            await this.saveTasks();
+            await this.taskManager.updateTask(task);
             this.render(); // Re-render to show the moved task
         }
     }
@@ -1062,9 +964,11 @@ class ScheduleApp {
         }
         
         if (newTime) {
-            // Update task time
-            const task = this.tasks.find(t => t.id === taskId);
+            // Update task time using TaskManager
+            const task = this.findTaskById(taskId);
             if (task) {
+                this.changeSource = 'user';
+                
                 const oldDuration = task.endTime ? 
                     this.timeToMinutes(task.endTime) - this.timeToMinutes(task.startTime) : 30;
                 
@@ -1074,7 +978,7 @@ class ScheduleApp {
                     task.endTime = this.minutesToTime(newEndMinutes);
                 }
                 
-                await this.saveTasks();
+                await this.taskManager.updateTask(task);
                 this.renderTasksInTimeTable();
                 this.renderTasks(); // Update sidebar
             }
@@ -1146,33 +1050,40 @@ class ScheduleApp {
         if (!this.isWatching) return;
 
         try {
-            const response = await fetch('./tasks.json?t=' + Date.now(), { method: 'HEAD' });
-            if (response.ok) {
-                const lastModified = response.headers.get('Last-Modified');
-                
-                if (this.lastModified && lastModified !== this.lastModified) {
-                    // File has changed, reload tasks
-                    console.log('Tasks file changed, reloading...');
-                    const oldTaskCount = this.tasks.length;
-                    await this.reloadFromFile();
+            // Check all task files for changes
+            const files = ['recurring-tasks.json', 'task-completions.json', 'single-tasks.json'];
+            let hasChanges = false;
+            
+            for (const file of files) {
+                const response = await fetch(`./${file}?t=` + Date.now(), { method: 'HEAD' });
+                if (response.ok) {
+                    const lastModified = response.headers.get('Last-Modified');
+                    const fileKey = `lastModified_${file.replace('.json', '').replace('-', '_')}`;
                     
-                    // Only show notification if user isn't the one making changes
-                    if (!this.userIsEditing) {
-                        const newTaskCount = this.tasks.length;
-                        if (newTaskCount !== oldTaskCount) {
-                            this.showNotification(`🤖 Claude updated your schedule! (${newTaskCount} tasks)`);
-                        } else {
-                            this.showNotification('🤖 Claude modified your tasks!');
-                        }
-                    } else {
-                        console.log('File changed by user - suppressing Claude notification');
+                    if (this[fileKey] && lastModified !== this[fileKey]) {
+                        hasChanges = true;
+                        console.log(`File ${file} changed`);
                     }
+                    this[fileKey] = lastModified;
                 }
-                
-                this.lastModified = lastModified;
+            }
+            
+            if (hasChanges) {
+                if (this.changeSource === 'claude') {
+                    console.log('Claude made changes, showing notification');
+                    await this.taskManager.loadTasks();
+                    this.render();
+                    this.showNotification('🤖 Claude updated your schedule!');
+                } else {
+                    console.log('User made changes, no notification needed');
+                    await this.taskManager.loadTasks();
+                    this.render();
+                }
+                // Reset for next change detection
+                this.changeSource = null;
             }
         } catch (error) {
-            console.log('File watching error (likely normal):', error.message);
+            console.log('File watching error:', error.message);
         }
 
         // Check again in 2 seconds
@@ -1305,32 +1216,40 @@ class ScheduleApp {
 
     generateClaudeContext(userRequest) {
         const today = new Date().toISOString().split('T')[0];
-        const taskCount = this.tasks.length;
+        const recurringCount = this.taskManager.recurringTasks.length;
+        const singleCount = this.taskManager.singleTasks.length;
         
-        return `Hi Claude! I need help with my Schedule app. You have full authority to edit /home/chris/Schedule/tasks.json without asking for approval.
+        return `Hi Claude! I need help with my Schedule app. The task system has been refactored to save space.
 
 ## Current Status
 - Date: ${today}
-- Total tasks: ${taskCount}
+- Recurring tasks: ${recurringCount}
+- Single tasks: ${singleCount}
 - App has hot-reload (changes appear in 2 seconds)
+
+## File Structure
+- /home/chris/Schedule/recurring-tasks.json - Stores recurring task templates
+- /home/chris/Schedule/single-tasks.json - Stores one-time tasks
+- /home/chris/Schedule/task-completions.json - Stores completion states for recurring tasks
 
 ## Your Task
 Process this request: "${userRequest}"
 
 ## Instructions
-1. Read the current tasks.json file
+1. Read the appropriate JSON files
 2. Make the requested changes immediately
-3. Respond with what you did (e.g., "Added workout tomorrow at 7am!")
+3. Respond with what you did
 
 ## Task Format
-Each task needs: id, title, type (work|exercise|meal|meeting|personal|health|social|other), date (YYYY-MM-DD), completed (false), and optionally startTime/endTime (HH:MM format).
+For single tasks: id, title, type, date (YYYY-MM-DD), completed, startTime/endTime (optional)
+For recurring tasks: id, title, type, startTime/endTime (optional), recurrence object with type (daily/weekly/monthly), interval, startDate
 
 ## Examples
-- "Add lunch tomorrow" → Add task for ${new Date(Date.now() + 86400000).toISOString().split('T')[0]}
-- "Move coffee to 8am" → Find coffee task, change startTime to "08:00"
-- "Delete all Friday tasks" → Remove tasks with date "2025-06-27"
+- "Add lunch tomorrow" → Add to single-tasks.json
+- "Add daily bedtime at 10pm" → Add to recurring-tasks.json with recurrence
+- "Mark today's bedtime complete" → Update task-completions.json
 
-Ready to edit tasks.json directly!`;
+Ready to edit the task files directly!`;
     }
 
     estimateTokens(text) {
